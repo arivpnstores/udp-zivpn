@@ -1,11 +1,11 @@
 
 <p align="center">
-  <img src="https://github.com/powermx/dl/blob/master/zivpn.png" width="420">
+  <img src="zivpn.png" width="420">
 </p>
 
 <h1 align="center">🚀 ZiVPN UDP Server</h1>
 
-UDP server installation for **ZiVPN Tunnel (SSH / DNS / UDP)** VPN application.
+UDP server installation for **ZiVPN Tunnel (UDP)** VPN application.
 
 Server binary available for **Linux amd64**, **arm**, and **arm64** with automatic architecture detection.
 
@@ -25,9 +25,9 @@ Server binary available for **Linux amd64**, **arm**, and **arm64** with automat
 
 ## 📦 Installation Menu
 
-\`\`\`bash
+```bash
 apt update -y && wget -q https://raw.githubusercontent.com/arivpnstores/udp-zivpn/main/install.sh -O /usr/local/bin/zivpn-manager && chmod +x /usr/local/bin/zivpn-manager && /usr/local/bin/zivpn-manager
-\`\`\`
+```
 
 > Installer akan otomatis:
 > - Download binary terbaru sesuai arsitektur  
@@ -40,9 +40,9 @@ apt update -y && wget -q https://raw.githubusercontent.com/arivpnstores/udp-zivp
 
 ## 🧼 Uninstall Menu
 
-\`\`\`bash
+```bash
 apt update -y && wget -q https://raw.githubusercontent.com/arivpnstores/udp-zivpn/main/uninstall.sh -O /usr/local/bin/uninstall-zivpn && chmod +x /usr/local/bin/uninstall-zivpn && /usr/local/bin/uninstall-zivpn
-\`\`\`
+```
 
 > Uninstall akan:
 > - Stop dan disable systemd service  
@@ -88,10 +88,10 @@ apt update -y && wget -q https://raw.githubusercontent.com/arivpnstores/udp-zivp
 ## ⚙️ Systemd / Auto Restart
 
 - Service dijalankan dengan:
-\`\`\`bash
+```bash
 systemctl enable zivpn.service
 systemctl start zivpn.service
-\`\`\`
+```
 - Service akan **restart otomatis** jika mati
 - Tunggu **network-online.target** sebelum start service → mencegah error UDP bind  
 
