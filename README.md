@@ -45,10 +45,10 @@ wget -q https://raw.githubusercontent.com/arivpnstores/udp-zivpn/main/fix-zivpn.
 ```
 
 > Script ini akan:
-> Memperbaiki service ZIVPN
-> Reset firewall & NAT
-> Membackup dan MeRestore Akun lama
-> Memastikan server aman
+> - Memperbaiki service ZIVPN
+> - Reset firewall & NAT
+> - Membackup dan MeRestore Akun lama
+> - Memastikan server aman
 
 ## 📦 Update Menu
 
