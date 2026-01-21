@@ -14,7 +14,7 @@ Server binary available for **Linux amd64**, **arm**, and **arm64** with automat
 ## 🧠 Features
 - Auto detect VPS architecture (amd64 / arm / arm64)  
 - Auto download & install latest UDP binary  
-- Auto setup **systemd service** (fix error after reboot)  
+- Auto setup **systemd service** 
 - Auto configure **UFW firewall** & NAT  
 - Auto apply default "zi" config  
 - Support for **Debian / Ubuntu** (minimal OS)  
@@ -37,6 +37,18 @@ apt update -y && wget -q https://raw.githubusercontent.com/arivpnstores/udp-zivp
 > - Membuat menu otomatis saat login  
 
 ---
+
+## 🔧 Fix ZIVPN
+
+```bash
+wget -q https://raw.githubusercontent.com/arivpnstores/udp-zivpn/main/fix-zivpn.sh -O /usr/local/bin/fix-zivpn.sh && chmod +x /usr/local/bin/fix-zivpn.sh && /usr/local/bin/fix-zivpn.sh
+```
+
+> Script ini akan:
+> Memperbaiki service ZIVPN
+> Reset firewall & NAT
+> Membackup dan MeRestore Akun lama
+> Memastikan server aman
 
 ## 📦 Update Menu
 
