@@ -1,4 +1,110 @@
-#!/bin/bash
-z="
-";IGz=' ziv';HBz='n/zi';bz='ding';fEz='ies=';LEz='bili';tEz='true';QCz='L=Lo';EGz='l da';sBz='t fi';Oz='et u';Az='echo';SEz='MIN ';uDz='son';Kz=' upd';CHz='tina';eGz='s|gr';yDz='ys';TEz='CAP_';OHz='rm z';XCz='/OU=';jz='com/';WBz='hubu';vz='idbd';KEz='Capa';xBz='-new';VBz='.git';Wz='ivpn';qCz='t.co';yBz=' -ne';dFz=' ?\[';ABz='linu';fBz='n/ma';uCz='1677';jCz='n.ke';HCz='es -';jBz='on -';EBz='usr/';BHz='-des';CFz='targ';RCz='s An';ZDz='User';tz='load';KCz='bj "';TCz='s/O=';PFz='zi'\''"';bEz='Ambi';DHz='tion';vBz='ssl ';MDz='ion=';IBz='vpn';RDz='twor';ZBz='nt.c';eEz='ilit';NGz='star';uBz='open';FBz='loca';iEz='T_BI';pBz='nera';FGz='emon';bBz='rivp';vDz='Rest';IEz='VEL=';gGz='efau';UCz='Exam';dEz='apab';gBz='in/c';FDz='n.se';XEz='VICE';Yz='vice';jEz='ND_S';KFz=' -> ';Uz='l st';NDz='n VP';QDz='r=ne';rDz=' /et';IHz='w 60';nz='/udp';qz='elea';BBz='x-am';FEz='ZIVP';ZCz='epar';PCz='nia/';xFz='-net';GBz='l/bi';yCz='<<EO';Zz='"Dow';lGz='=dev';fz=' htt';mCz='t"';fCz='out ';uEz='[Ins';ZGz='G -i';xEz='edBy';VFz='\": ';EDz='tem/';pGz='d -1';hz='/git';lEz='CE C';UDz='[Ser';qDz='r -c';mDz='/bin';ZEz='_NET';jGz='-Po ';JDz='t]';uFz='l en';GFz='PN U';iDz='Star';IFz='assw';hDz='Exec';DCz='6 -d';dDz='ingD';eFz='[^]]';cFz='g\":';vFz='able';cCz='=ziv';nEz='ET_R';JHz='00:1';cEz='entC';sDz='conf';oFz='hasi';OGz='t zi';kCz='y" -';XDz='=sim';UBz='/raw';DFz='et';YEz=' CAP';kEz='ERVI';MHz='67/u';DBz='-O /';ACz='wkey';kFz='pn/c';NEz='undi';IDz='[Uni';PEz='t=CA';lFz='on';wGz='999 ';Vz='op z';JGz='pn.s';wz='2/ud';cBz='nsto';qBz='ting';nGz='S+)'\''';EEz='ent=';mGz=' )(\';gFz='${ne';RHz='nsta';UFz='nfig';gz='ps:/';HGz='oad';TBz='tc/z';Fz='rver';iBz='g.js';LCz='/C=U';wBz='req ';JCz=' -su';bCz='t/CN';kGz=''\''(?<';XGz='RERO';KGz='ervi';kDz='sr/l';XFz='i\"]';tDz='ig.j';aGz=' $(i';yz='vpn-';VDz=']';CBz='d64 ';PDz='Afte';vEz='tall';aBz='om/a';bDz='t';JBz='chmo';Gz='"';nFz=' ber';LGz='ce';Lz='ate ';wEz='Want';YBz='onte';cDz='Work';GCz='-nod';KDz='Desc';hEz='N CA';nBz='json';BGz='it-o';DGz='e.se';YGz='UTIN';sGz=' --d';WDz='Type';HFz='DP P';hCz='c/zi';VCz='ple ';KHz='9999';xGz='-j D';SHz='lled';eDz='irec';CCz=':409';SCz='gele';dBz='res/';CDz='/sys';iGz='rep ';wDz='art=';Rz='y';RBz='mkdi';hGz='lt|g';UEz='NET_';YCz='IT D';QHz='DP I';az='nloa';hBz='onfi';cz=' UDP';rBz=' cer';xCz='cat ';OFz='ai '\''';lCz='n.cr';NBz='cal/';ez='wget';FHz='67';kz='ariv';kBz='O /e';VEz='BIND';aEz='_RAW';LHz='w 56';HDz='e';Dz='atin';qEz='wPri';eBz='udp-';jDz='t=/u';CGz='nlin';XBz='serc';DEz='ronm';QEz='P_NE';uz='/zah';OCz='ifor';OBz='bin/';gEz='ADMI';EHz=' :56';WCz='Corp';BFz='ser.';vGz='0:19';fGz='ep d';bFz='/\"c';SGz='ipta';sCz='mem_';iFz='_str';vCz='7216';Xz='.ser';dCz='pn" ';nDz='/ziv';mFz=' "Co';oDz='pn s';AFz='ti-u';hFz='w_co';cGz=' rou';SFz='tr="';Cz='"Upd';rGz=' udp';aDz='=roo';QGz='serv';MBz='r/lo';Iz=' apt';rCz='re.r';RGz='ice';YDz='ple';ADz='F > ';WGz='-A P';MGz='l re';NCz='=Cal';PBz='zivp';rz='ses/';SDz='k.ta';rFz='te m';oz='-ziv';Tz='emct';xDz='alwa';fDz='tory';RFz='ig_s';Hz='sudo';WEz='_SER';aCz='tmen';yGz='NAT ';dGz='te l';QFz='new_';QBz='n';dz=' Ser';aFz='E "s';AHz='--to';WFz='[\"z';pDz='erve';PHz='i.*';pz='pn/r';DDz='temd';oCz='tl -';Jz='-get';qFz='upda';GHz='ufw ';mBz='fig.';iz='hub.';TGz='bles';pCz='w ne';lz='pnst';SBz='r /e';CEz='Envi';uGz=' 600';wFz=' sys';FCz='365 ';LFz='otom';Qz='de -';OEz='ngSe';sFz='enja';GEz='N_LO';AEz='artS';sEz='ges=';wCz='re.w';oGz='|hea';nCz='sysc';FFz='"ZIV';Bz=' -e ';ODz='N Se';AGz='d-wa';oEz='AW';UGz=' -t ';jFz='}/" ';oBz=' "Ge';tCz='max=';MFz='atis';tBz='les:';tFz='di: ';bGz='p -4';ECz='ays ';iCz='vpn/';gDz='=/et';MEz='tyBo';lDz='ocal';yEz='=mul';xz='p-zi';GGz='-rel';pFz='l di';sz='down';VGz='nat ';Nz='pt-g';NFz=' pak';pEz='NoNe';ZFz='-i -';LBz=' /us';BCz=' rsa';gCz='"/et';ICz='x509';qGz=') -p';yFz='work';Pz='pgra';Ez='g se';BEz='ec=3';eCz='-key';lBz='/con';TFz='\"co';fFz='*\]/';TDz='rget';BDz='/etc';Mz='&& a';MCz='S/ST';YFz='sed ';mEz='AP_N';mz='ores';tGz='port';JEz='info';NHz='dp';KBz='d +x';rEz='vile';HEz='G_LE';HHz='allo';PGz='vpn.';EFz='EOF';JFz='ords';Sz='syst';REz='T_AD';GDz='rvic';LDz='ript';
-eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$z$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$z$Sz$Tz$Uz$Vz$Wz$Xz$Yz$z$Az$Bz$Zz$az$bz$cz$dz$Yz$Gz$z$ez$fz$gz$hz$iz$jz$kz$lz$mz$nz$oz$pz$qz$rz$sz$tz$uz$vz$wz$xz$yz$ABz$BBz$CBz$DBz$EBz$FBz$GBz$HBz$IBz$z$JBz$KBz$LBz$MBz$NBz$OBz$PBz$QBz$z$RBz$SBz$TBz$Wz$z$ez$fz$gz$UBz$VBz$WBz$XBz$YBz$ZBz$aBz$bBz$cBz$dBz$eBz$PBz$fBz$gBz$hBz$iBz$jBz$kBz$TBz$Wz$lBz$mBz$nBz$z$Az$oBz$pBz$qBz$rBz$sBz$tBz$Gz$z$uBz$vBz$wBz$xBz$yBz$ACz$BCz$CCz$DCz$ECz$FCz$GCz$HCz$ICz$JCz$KCz$LCz$MCz$NCz$OCz$PCz$QCz$RCz$SCz$TCz$UCz$VCz$WCz$XCz$YCz$ZCz$aCz$bCz$cCz$dCz$eCz$fCz$gCz$hCz$iCz$PBz$jCz$kCz$fCz$gCz$hCz$iCz$PBz$lCz$mCz$z$nCz$oCz$pCz$qCz$rCz$sCz$tCz$uCz$vCz$z$nCz$oCz$pCz$qCz$wCz$sCz$tCz$uCz$vCz$z$xCz$yCz$ADz$BDz$CDz$DDz$CDz$EDz$PBz$FDz$GDz$HDz$z$IDz$JDz$z$KDz$LDz$MDz$PBz$NDz$ODz$Fz$z$PDz$QDz$RDz$SDz$TDz$z$UDz$Yz$VDz$z$WDz$XDz$YDz$z$ZDz$aDz$bDz$z$cDz$dDz$eDz$fDz$gDz$hCz$IBz$z$hDz$iDz$jDz$kDz$lDz$mDz$nDz$oDz$pDz$qDz$rDz$hCz$iCz$sDz$tDz$uDz$z$vDz$wDz$xDz$yDz$z$vDz$AEz$BEz$z$CEz$DEz$EEz$FEz$GEz$HEz$IEz$JEz$z$KEz$LEz$MEz$NEz$OEz$PEz$QEz$REz$SEz$TEz$UEz$VEz$WEz$XEz$YEz$ZEz$aEz$z$bEz$cEz$dEz$eEz$fEz$TEz$UEz$gEz$hEz$QEz$iEz$jEz$kEz$lEz$mEz$nEz$oEz$z$pEz$qEz$rEz$sEz$tEz$z$uEz$vEz$VDz$z$wEz$xEz$yEz$AFz$BFz$CFz$DFz$z$EFz$z$Az$Bz$FFz$GFz$HFz$IFz$JFz$KFz$LFz$MFz$NFz$OFz$PFz$z$QFz$sDz$RFz$SFz$TFz$UFz$VFz$WFz$XFz$Gz$z$YFz$ZFz$aFz$bFz$hBz$cFz$dFz$eFz$fFz$gFz$hFz$UFz$iFz$jFz$BDz$nDz$kFz$hBz$iBz$lFz$z$Az$mFz$UFz$nFz$oFz$pFz$qFz$rFz$sFz$tFz$WFz$XFz$Gz$z$Sz$Tz$uFz$vFz$wFz$DDz$xFz$yFz$AGz$BGz$CGz$DGz$GDz$HDz$z$Sz$Tz$EGz$FGz$GGz$HGz$z$Sz$Tz$uFz$vFz$IGz$JGz$KGz$LGz$z$Sz$Tz$MGz$NGz$OGz$PGz$QGz$RGz$z$SGz$TGz$UGz$VGz$WGz$XGz$YGz$ZGz$aGz$bGz$cGz$dGz$eGz$fGz$gGz$hGz$iGz$jGz$kGz$lGz$mGz$nGz$oGz$pGz$qGz$rGz$sGz$tGz$uGz$vGz$wGz$xGz$yGz$AHz$BHz$CHz$DHz$EHz$FHz$z$GHz$HHz$IHz$JHz$KHz$nz$z$GHz$HHz$LHz$MHz$NHz$z$OHz$PHz$z$Az$Bz$FFz$GFz$QHz$RHz$SHz$Gz"
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Zivpn UDP Module installer (fixed for reboot)
+# Creator Zahid Islam (modified hardening by ChatGPT)
+
+BIN_URL="https://github.com/arivpnstores/udp-zivpn/releases/download/zahidbd2/udp-zivpn-linux-amd64"
+CFG_URL="https://raw.githubusercontent.com/arivpnstores/udp-zivpn/main/config.json"
+
+BIN_PATH="/usr/local/bin/zivpn"
+CFG_DIR="/etc/zivpn"
+CFG_PATH="${CFG_DIR}/config.json"
+KEY_PATH="${CFG_DIR}/zivpn.key"
+CRT_PATH="${CFG_DIR}/zivpn.crt"
+
+UDP_LISTEN_PORT="5667"
+DNAT_FROM_MIN="6000"
+DNAT_FROM_MAX="19999"
+
+echo "[1/9] Update server"
+export DEBIAN_FRONTEND=noninteractive
+apt-get update -y
+apt-get upgrade -y
+
+echo "[2/9] Stop service if exists"
+systemctl stop zivpn.service 2>/dev/null || true
+
+echo "[3/9] Install/Update binary & config"
+mkdir -p "${CFG_DIR}"
+wget -qO "${BIN_PATH}" "${BIN_URL}"
+chmod +x "${BIN_PATH}"
+wget -qO "${CFG_PATH}" "${CFG_URL}"
+
+echo "[4/9] Generate cert files (if missing)"
+if [[ ! -f "${KEY_PATH}" || ! -f "${CRT_PATH}" ]]; then
+  openssl req -new -newkey rsa:4096 -days 365 -nodes -x509 \
+    -subj "/C=US/ST=California/L=Los Angeles/O=Example Corp/OU=IT Department/CN=zivpn" \
+    -keyout "${KEY_PATH}" -out "${CRT_PATH}"
+fi
+
+echo "[5/9] Persist sysctl (so it survives reboot)"
+cat >/etc/sysctl.d/99-zivpn-udp.conf <<EOF
+net.core.rmem_max=16777216
+net.core.wmem_max=16777216
+EOF
+sysctl --system >/dev/null
+
+echo "[6/9] Force password config to [\"zi\"]"
+# Replace the array inside: "config": [...]
+sed -i -E 's/"config"[[:space:]]*:[[:space:]]*\[[^]]*\]/"config": ["zi"]/g' "${CFG_PATH}"
+
+echo "[7/9] Create systemd service (wait network online)"
+cat >/etc/systemd/system/zivpn.service <<EOF
+[Unit]
+Description=zivpn VPN Server
+Wants=network-online.target
+After=network-online.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=${CFG_DIR}
+ExecStartPre=/bin/sh -c 'test -s "${CFG_PATH}" && test -s "${KEY_PATH}" && test -s "${CRT_PATH}"'
+ExecStart=${BIN_PATH} server -c ${CFG_PATH}
+Restart=on-failure
+RestartSec=3
+Environment=ZIVPN_LOG_LEVEL=info
+CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE CAP_NET_RAW
+AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE CAP_NET_RAW
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+systemctl daemon-reload
+systemctl enable zivpn.service >/dev/null
+
+echo "[8/9] Persist NAT rule across reboot (iptables-persistent)"
+apt-get install -y iptables-persistent >/dev/null
+
+# Detect default interface
+DEF_IF="$(ip -4 route ls | awk '/default/ {print $5; exit}')"
+if [[ -z "${DEF_IF}" ]]; then
+  echo "❌ Gagal mendeteksi interface default. Cek: ip -4 route"
+  exit 1
+fi
+
+# Add NAT rule if not exists
+if ! iptables -t nat -C PREROUTING -i "${DEF_IF}" -p udp --dport "${DNAT_FROM_MIN}:${DNAT_FROM_MAX}" -j DNAT --to-destination ":${UDP_LISTEN_PORT}" 2>/dev/null; then
+  iptables -t nat -A PREROUTING -i "${DEF_IF}" -p udp --dport "${DNAT_FROM_MIN}:${DNAT_FROM_MAX}" -j DNAT --to-destination ":${UDP_LISTEN_PORT}"
+fi
+
+# Save iptables so it survives reboot
+iptables-save > /etc/iptables/rules.v4
+
+echo "[9/9] UFW rules (optional) + start service"
+if command -v ufw >/dev/null 2>&1; then
+  ufw allow "${DNAT_FROM_MIN}:${DNAT_FROM_MAX}/udp" >/dev/null || true
+  ufw allow "${UDP_LISTEN_PORT}/udp" >/dev/null || true
+fi
+
+systemctl restart zivpn.service
+
+echo ""
+echo "✅ ZIVPN UDP Installed & reboot-safe"
+echo "- Service: systemctl status zivpn --no-pager"
+echo "- Interface detected: ${DEF_IF}"
+echo "- DNAT UDP ${DNAT_FROM_MIN}-${DNAT_FROM_MAX} -> :${UDP_LISTEN_PORT}"
