@@ -169,3 +169,57 @@ curl "http://123.45.67.89:5888/trial/zivpn?exp=60&auth=a1b2c3"
     "message": "Error: Invalid number of minutes."
   }
   ```
+
+---
+
+### 5. Total Akun
+
+Melihat jumlah total akun ZIVPN yang terdaftar.
+
+- **Endpoint:** `/total/zivpn`
+- **Metode:** `GET`, `POST`
+- **Parameter:**
+  - `auth` (string, wajib): Kunci otentikasi API Anda.
+
+Contoh request:
+```bash
+curl "http://IP:5888/total/zivpn?auth=KEY"
+```
+Contoh respons:
+```json
+{
+  "status": "success",
+  "message": "Success: Total accounts: 15"
+}
+```
+
+---
+
+### 6. Check Akun
+
+Melihat detail sebuah akun ZIVPN.
+
+- **Endpoint:** `/check/zivpn`
+- **Metode:** `GET`, `POST`
+- **Parameter:**
+  - `password` (string, wajib): Kata sandi akun.
+  - `auth` (string, wajib): Kunci otentikasi API Anda.
+
+Contoh request:
+```bash
+curl "http://IP:5888/check/zivpn?password=userku&auth=KEY"
+```
+Contoh respons sukses:
+```json
+{
+  "status": "success",
+  "message": "Success:\nPassword    : userku\nHost        : 103.25.58.109\nISP         : PT. Nexin\nExpiry Date : 2026-06-17 14:30:00\nRemaining   : 30 days\nStatus      : Active"
+}
+```
+Contoh respons gagal:
+```json
+{
+  "status": "error",
+  "message": "Error: Account 'userku' not found."
+}
+```
