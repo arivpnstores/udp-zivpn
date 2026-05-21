@@ -223,3 +223,69 @@ Contoh respons gagal:
   "message": "Error: Account 'userku' not found."
 }
 ```
+
+---
+
+### 7. Lock Akun
+
+Endpoint ini digunakan untuk mengunci (menonaktifkan sementara) akun ZIVPN. Akun tetap ada di database tetapi tidak bisa digunakan untuk koneksi.
+
+- **Endpoint:** `/lock/zivpn`
+- **Metode:** `GET`, `POST`
+- **Parameter:**
+  - `password` (string, wajib): Kata sandi akun yang akan dikunci.
+  - `auth` (string, wajib): Kunci otentikasi API Anda.
+
+Contoh request:
+```bash
+curl "http://IP:5888/lock/zivpn?password=userku&auth=KEY"
+```
+
+Contoh respons sukses:
+```json
+{
+  "status": "success",
+  "message": "Success: Account 'userku' has been locked."
+}
+```
+
+Contoh respons gagal (sudah dikunci):
+```json
+{
+  "status": "error",
+  "message": "Error: Account 'userku' is already locked."
+}
+```
+
+---
+
+### 8. Unlock Akun
+
+Endpoint ini digunakan untuk mengaktifkan kembali akun ZIVPN yang sebelumnya dikunci.
+
+- **Endpoint:** `/unlock/zivpn`
+- **Metode:** `GET`, `POST`
+- **Parameter:**
+  - `password` (string, wajib): Kata sandi akun yang akan dibuka.
+  - `auth` (string, wajib): Kunci otentikasi API Anda.
+
+Contoh request:
+```bash
+curl "http://IP:5888/unlock/zivpn?password=userku&auth=KEY"
+```
+
+Contoh respons sukses:
+```json
+{
+  "status": "success",
+  "message": "Success: Account 'userku' has been unlocked."
+}
+```
+
+Contoh respons gagal (tidak dikunci):
+```json
+{
+  "status": "error",
+  "message": "Error: Account 'userku' is not locked."
+}
+```
