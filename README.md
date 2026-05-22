@@ -96,7 +96,7 @@ wget -q https://raw.githubusercontent.com/arivpnstores/udp-zivpn/main/uninstall.
 | Service Name | `zivpn.service` |
 | Config File | `/etc/zivpn/config.json` |
 | Binary Path | `/usr/local/bin/zivpn` |
-| Firewall / NAT | UDP 6000-19999 → 5667 |
+| Firewall / NAT | UDP 6000-19999 → 553 |
 | Auto Menu Alias | `menu` → `/usr/local/bin/zivpn-manager` |
 
 ---
